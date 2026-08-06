@@ -70,11 +70,6 @@ body {
 
 }
 
-
-
-
-
-
 /* ==========================
    NAVBAR
 ========================== */
@@ -111,7 +106,7 @@ header {
 
     background:
 
-    rgba(255,255,255,0.8);
+    linear-gradient(to left ,#7c3aed,#2563eb, aqua);
 
 
     backdrop-filter:blur(15px);
@@ -169,8 +164,7 @@ header {
 
     text-decoration:none;
 
-    color:var(--heading);
-
+    color:aqua;
     font-weight:500;
 
 
@@ -185,7 +179,7 @@ header {
 .nav-links .active {
 
 
-    color:var(--primary);
+    color: gold;
 
 
 }
@@ -232,7 +226,7 @@ header {
     linear-gradient(
         135deg,
         #eff6ff,
-        #ffffff
+        #f6e8ff
     );
 
 }
@@ -368,23 +362,6 @@ header {
     box-shadow:
 
     0 15px 30px rgba(37,99,235,.35);
-
-
-}
-
-
-
-
-.btn.outline {
-
-
-    background:white;
-
-
-    color:var(--primary);
-
-
-    border:2px solid var(--primary);
 
 
 }

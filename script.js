@@ -251,25 +251,9 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // Replace "resume.pdf" with your actual resume file name
 
 
-const resumeButton = document.querySelector(
-
-    ".hero-buttons .btn:first-child"
-
-);
 
 
 
-resumeButton.addEventListener("click",()=>{
-
-
-    alert(
-
-        "Add your resume.pdf file in the project folder and update the download link."
-
-    );
-
-
-});
 
 
 
@@ -288,7 +272,7 @@ const currentYear = new Date().getFullYear();
 
 footer.innerHTML =
 
-`© ${currentYear} Alex Johnson. All Rights Reserved.`;
+`© ${currentYear} Gopal Warang. All Rights Reserved.`;
 
 
 
